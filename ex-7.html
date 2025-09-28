@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- & Title of the Webpage -->
+    <title>Ex. 7: Measurements</title>
+    <!-- & Link to the CSS Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- & Header
+    ~ The space near the top of the webpage that will have information like that website logo, tittle of the webpage, a search bar, links to other parts of the site, and a button to sign into the webpage
+    -->
+    <header class="flex-container">
+        <!-- & Figure
+        ~ Usually a graphic, image, or a diagram
+        ~ It can also house more than one image
+        -->
+        <figure>
+            <img
+                src="img/1-cherry-blossom-stem.png"
+                alt="Cherry Blossom Stem"
+                class="img-header"
+            >
+        </figure>
+
+        <h1>Measurements</h1>
+
+        <figure>
+            <img
+                src="img/1-cherry-blossom-stem.png"
+                alt="Cherry Blossom Stem"
+                class="img-header"
+            >
+        </figure>
+    </header>
+    <br>
+    <hr class="section-divider">
+    <br>
+
+    <!-- & Main
+    ~ This is where the main information of the webpage will go
+    ~ i.e. About how to size elements in CSS
+    -->
+    <main>
+        <!-- & Section
+        ~ This groups together pieces of similar information together
+        ~ i.e. Understanding the different aspects of Measurements in CSS
+        -->
+        <!-- & This section will discuss Sizing in CSS -->
+        <section>
+            <br>
+            <h2># Sizing in CSS</h2>
+            <hr class="section-title-divider">
+            <br>
+
+            <ul>
+                <li>
+                    HTML elements have a default size, including height and width. However, CSS can change their size.
+
+                </li>
+                <li>
+                    Two of the most common sizing properties in CSS are the width and height properties.
+                </li>
+                <li>
+                    For instance, the &lt;img&gt; element has a default width and height set to the original size of the image
+                    <ul>
+                        <li>
+                            <img
+                                src="img/2-cherry-blossom-jelly-mochi.png"
+                                alt="Cherry Blossom Jellly Mochi"
+                            >
+                        </li>
+                        <li>
+                            <img
+                                src="img/3-rendered-img-size.png"
+                                alt="Rendered Image of the original Image Size of the Cherry Blossom Jellyu Mochi"
+                            >
+                        </li>
+                        <li>
+                            The above rendered image of Cherry Blossom Jelly Mochi is 478.98 pixels-wide and 377.99 pixels-tall by default. But this can be changed in CSS by selecting the image and setting a differnet width and height
+                        </li>
+                        <li>
+                            <img
+                                src="img/4-syntax-to-change-width-height.png"
+                                alt="Syntax forr changing the width and height of an image"
+                                width="250"
+                            >
+                        </li>
+                        <li>
+                            This is image would become taller than it is wide.
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <br>
+        <hr class="section-divider">
+        <br>
+
+        <!-- & This section will discuss absolute vs relative units -->
+        <section>
+            <br>
+            <h2># Absolute vs. Relative Units</h2>
+            <hr class="section-title-divider">
+            <br>
+
+            <ul>
+                <li>
+                    The kind of measurements given to an element'ss properties cna be splint into two groups: absolute units and relative units.
+                </li>
+                <li>
+                    Absolute units are usually expressed as numbers, with or without a decimal. They are fixed and do not change in size according to the size of its direct parent element.
+                </li>
+                <li>
+                    Pixels(px) are the most commonly used:
+                    <ul>
+                        <li>
+                            <img
+                                src="img/5-absolute-units-pixels.png"
+                                alt="Absolute units example using Pixels for Sizing"
+                                width="250"
+                            >
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Other common options include points (pt) and centimeters (cm)
+                </li>
+                <br>
+
+                <li>
+                    Keep in mind that when setting the height of a given element with absolute units, because it may cause the content to overflow outside the boundaries of its parent element.
+                </li>
+                <li>
+                    If an element's property is set with relative units, it will change if the size of something else changes, like its parent element or the computer screen itself.
+                </li>
+                <li>
+                    This is often expressed as percentages (i.e. 50%):
+                    <ul>
+                        <li>
+                            <img
+                                src="img/6-relative-units-percentage.png"
+                                alt="Relative units exampled using Percentages for Sizing"
+                                width="250"
+                            >
+                        </li>
+                    </ul>
+                </li>
+                <br>
+
+                <li>
+                    There are other frequently-used relative units:
+                    <ul>
+                        <li>
+                            em measurements that are associated with the font size of either the parent element when applying font-size or the element itself when setting the width.
+                        </li>
+                        <li>
+                            rem measurements that are associated with the font-size of the root &lt;html&gt; element (16pt by default)
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Uses for the em may include setting a page's text to change according to how a usesr sets the text size for their browser. For rem, this could be used to set the baseline text size for a site.
+                </li>
+            </ul>
+        </section>
+    </main>
+    <br>
+    <hr class="section-divider">
+    <br>
+
+    <!-- & Footer
+    ~ This is where important information will go that is not suitable for the <header> element
+        ~ Footnotes
+        ~ Links to extended resources
+            ~ In the <a> element -> use the following for the href attribute
+                ~ href = "/privacy"
+            ~ Also use the target attribute to open the link in a new web browser tab
+                ~ target = "_blank"
+        ~ Copyright information
+    -->
+    <footer>
+        <!-- & &copy; -> This is the symbol for copyright -->
+        &copy; 2025 EtariaL33. All rights reserved.
+    </footer>
+    <br>
+</body>
+</html>

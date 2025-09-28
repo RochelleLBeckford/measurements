@@ -1,0 +1,91 @@
+/* & This will add a specific font to the entire webpage */
+* {
+    font-family: "Handlee";
+}
+
+/* & This will style the entire webpage */
+body {
+    /* ~ Colors of my VS Code Theme */
+    background-color: #393a55;
+    color: #ff9eb5;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* & This will create a flex container */
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* & This will style the header images */
+.img-header {
+    width: 200px;
+    height: 300px;
+    border: 5px solid #ff9eb5;
+    /* border-radius: 30px; */
+}
+
+/* & This will style the <h1> element */
+h1 {
+    width: 30%;
+    height: 100px;
+    text-align: center;
+    border: 5px solid;
+    padding-top: 40px;
+}
+
+/* & This will style the horizontal line or dividing line to divide the sections */
+.section-divider {
+    width: 90%;
+    height: 15px;
+    background: linear-gradient(90deg, #a9f1df 25%, #ffbbbb 75%)no-repeat;
+    border: none;
+    margin: auto;
+}
+
+/* & This wil style the <h2> element */
+h2 {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    /* border: 5px solid #ff9eb5; */
+}
+
+/* & This will style the horizontal line or dividing line for each section title */
+.section-title-divider {
+    width: 30%;
+    height: 15px;
+    border: none;
+    background: linear-gradient(90deg, #a9f1df 25%, #ffbbbb 75%)no-repeat;
+}
+
+/* & This will style the <li> element and it's marker */
+li {
+    list-style: circle;
+}
+
+li::marker {
+    font-size: 1.6em;
+}
+
+/* & This will style footer section of the webpage */
+footer {
+    text-align: center;
+    bottom: 0;
+    font-size: 18px;
+    margin: auto;
+}
+
+/* & This will stylw the Soccer Ball images using absolute and relative units */
+/* ~ This will use absolute units */
+#absolute {
+    width: 100px;
+}
+
+/* ~ This will use relative units */
+#relative {
+    width: 50%;
+}
