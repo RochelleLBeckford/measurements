@@ -65,7 +65,7 @@ h2 {
 /* & This will style the <li> element and it's marker */
 li {
     list-style: circle;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 li::marker {
