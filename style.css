@@ -40,7 +40,7 @@ h1 {
 /* & This will style the horizontal line or dividing line to divide the sections */
 .section-divider {
     width: 90%;
-    height: 15px;
+    height: 10px;
     background: linear-gradient(90deg, #a9f1df 25%, #ffbbbb 75%)no-repeat;
     border: none;
     margin: auto;
@@ -57,7 +57,7 @@ h2 {
 /* & This will style the horizontal line or dividing line for each section title */
 .section-title-divider {
     width: 30%;
-    height: 15px;
+    height: 10px;
     border: none;
     background: linear-gradient(90deg, #a9f1df 25%, #ffbbbb 75%)no-repeat;
 }
