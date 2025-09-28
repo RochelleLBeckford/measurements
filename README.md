@@ -31,29 +31,6 @@
 
 <hr>
 
--   [ ] Pseudo-elements:
-    -   [ ] This makes it possibke to style specific parts of an element, without having to render a new HTML
-        -   [ ] The "pseudo" part just means giving CSS to a specific piece of the content.
-    -   [ ] These are a few use cases for pseudo-elements
-        -   [ ] Creating decorations to go with lables or text
-        -   [ ] Styling the first letter or first line of a paragraph
-        -   [ ] Making custome tooltips that appear as you hover your mouse over something
-        -   [ ] And even more!!!
-        -   [ ] For instance, including an emoji before or after some parapgraph text, but not including it inn HTML
-
-<hr>
-
--   [ ] CSS Colors:
-    -   [ ] Styling the webpage with coloes can help make it even more beautiful and unique
-        -   [ ] To add color to text, use the color property
-    -   [ ] RGB is another way to customize colors
-        -   [ ] It represents the intensity of the red-ness, green-ness, and blue-ness of the color(s) assigned to a given element
-        -   [ ] The rgb( ) function accepts three integers ranging from 0 to 255 (0 has no intensity and 255 has maximum intensity), and is assigned to the "color" property
-    -   [ ] Hexicdecimals aka hexicode can be used alterenitavely to express colors that begins with a hashtag (#), followed by a combination of numbers (0 - 9) and letters (a - f).
-        -   [ ] The letters in hexidecimals can be either lowercase or uppercase, but mixing them are not best practice.
-
-<hr>
-
 -   [ ] CSS Measurements:
     -   [ ] HTML elements have a default size, including height and width
     -   [ ] CSS can change their size using two of the most common sizing properties, the width and height properties
