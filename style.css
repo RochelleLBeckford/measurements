@@ -1,6 +1,7 @@
-/* & This will add a specific font to the entire webpage */
+/* & This will style the font of the entire webpage */
 * {
-    font-family: "Handlee";
+    font-style: italic;
+    letter-spacing: .1em;
 }
 
 /* & This will style the entire webpage */
