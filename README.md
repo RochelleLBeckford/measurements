@@ -40,10 +40,10 @@
         -   [ ] They are fixed and do not change in size according to the size of its direct parent element
         -   [ ] Pixels (px) are the most commonly used:
             -   [ ] <img src="img/5-absolute-units-pixels.png" alt="Absolute Units example usinf Pixel(px) for sizing" width="180">
-            -   [ ] When setting the height of a given element with absolute units, it could cause the content to overflow outside the boundaries of it parent elelment
+            -   [ ] When setting the height of a given element with absolute units, it could cause the content to overflow outside the boundaries of it parent element
 
     -   [ ] Relative units:
-        -   [ ] It will change if the size of something else changes. likes its parent element or the computer screen itself.
+        -   [ ] It will change if the size of something else changes. Like its parent element or the computer screen itself.
         -   [ ] It is often expressed as percentages (i.e. 50%)
             -   [ ] <img src="img/6-relative-units-percentage.png" src="Relative units example using Percentages for Sizing">
 
